@@ -12,6 +12,16 @@ All of the vertices passed to the algorithm are under the provided distance (`di
 
 ##Outcome
 The list of vertices is reduced to two vertex only, the first and the last vertex.
+```{r summary}
+x <-c(-3.0,-1.0, 0.0, 2.0, 4.0, 4.0, 5.0, 10.0, 20.0)
+y <- c(0.0, 1.0, 3.0, 6.0, 6.0, 6.0, 8.5, 12.0, 23.0)
+
+#Simplified curve based on details below
+x_s <-c(-3.0,20.0)
+y_s <- c(0.0,23.0)
+plot(x, y, type="b", col="black")
+lines(x_s, y_s, type= "b", col="green")
+```
 
 ##Visualization
 The vertices and their curve. 
